@@ -40,10 +40,10 @@ class CalculadoraCalificaciones {
     // Ejecución principal
     public static void main(String[] args) {
         double[] notasAlumno = {81.0, 88.5, 98.0, 75.5, 90.0};
-        CalculadoraCalificaciones alumno = new CalculadoraCalificaciones("Juan Pérez", notasAlumno);
+        CalculadoraCalificaciones alumno = new CalculadoraCalificaciones("Jose Luis", notasAlumno);
 
         double promedio = alumno.calcularPromedio(notasAlumno);
         char grado = alumno.obtenerGrado(promedio);
-        alumno.imprimirResultados("Juan Pérez", promedio, grado);
+        alumno.imprimirResultados("Jose Luis", promedio, grado);
     }
 }
